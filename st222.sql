@@ -13,18 +13,18 @@ CREATE TABLE employee (
  section_id int
 );
 
-INSERT INTO employee (id, user_id, last_name, first_name, gender, entry_day, section_id) values (1, 102, '“c’†', 'ˆê˜Y', 'm', '1990-03-28', 11);
-INSERT INTO employee (id, user_id, last_name, first_name, gender, entry_day, section_id) values (2, 103, 'R“c', '‘¾˜Y', 'm', '1998-06-7', 12);
-INSERT INTO employee (id, user_id, last_name, first_name, gender, entry_day, section_id) values (3, 109, 'Rì', '˜al', 'm', '1992-10-10', 14);
-INSERT INTO employee (id, user_id, last_name, first_name, gender, entry_day, section_id) values (4, 110, '‘¾“c', 'Ÿ˜Y', 'm', '1989-04-8', 11);
-INSERT INTO employee (id, user_id, last_name, first_name, gender, entry_day, section_id) values (5, 112, '‹ß“¡', '³q', 'f', '1988-07-6', 14);
-INSERT INTO employee (id, user_id, last_name, first_name, gender, entry_day, section_id) values (6, 114, '–Ø‘º', '”ü‹I', 'f', '1983-09-29', 12);
-INSERT INTO employee (id, user_id, last_name, first_name, gender, entry_day, section_id) values (7, 115, '¬—Ñ', 'ˆê˜Y', 'm', '1980-07-14', 13);
-INSERT INTO employee (id, user_id, last_name, first_name, gender, entry_day, section_id) values (8, 117, 'ì‘º', '½', 'm', '1993-01-8', 13);
-INSERT INTO employee (id, user_id, last_name, first_name, gender, entry_day, section_id) values (9, 118, '’J‘º', '“ŞX', 'f', '1997-12-5', 14);
-INSERT INTO employee (id, user_id, last_name, first_name, gender, entry_day, section_id) values (10, 119, '‘å—Ñ', '“ñ˜Y', 'm', '1981-04-14', 13);
-INSERT INTO employee (id, user_id, last_name, first_name, gender, entry_day, section_id) values (11, 120, '’†‘º', '³l', 'm', '1994-06-30', 11);
-INSERT INTO employee (id, user_id, last_name, first_name, gender, entry_day, section_id) values (12, 121, '¬ì', '^', 'm', '1996-03-7', 11);
+INSERT INTO employee (id, user_id, last_name, first_name, gender, entry_day, section_id) values (1, 102, 'ç”°ä¸­', 'ä¸€éƒ', 'm', '1990-03-28', 11);
+INSERT INTO employee (id, user_id, last_name, first_name, gender, entry_day, section_id) values (2, 103, 'å±±ç”°', 'å¤ªéƒ', 'm', '1998-06-7', 12);
+INSERT INTO employee (id, user_id, last_name, first_name, gender, entry_day, section_id) values (3, 109, 'å±±å·', 'å’Œäºº', 'm', '1992-10-10', 14);
+INSERT INTO employee (id, user_id, last_name, first_name, gender, entry_day, section_id) values (4, 110, 'å¤ªç”°', 'æ¬¡éƒ', 'm', '1989-04-8', 11);
+INSERT INTO employee (id, user_id, last_name, first_name, gender, entry_day, section_id) values (5, 112, 'è¿‘è—¤', 'æ­£å­', 'f', '1988-07-6', 14);
+INSERT INTO employee (id, user_id, last_name, first_name, gender, entry_day, section_id) values (6, 114, 'æœ¨æ‘', 'ç¾ç´€', 'f', '1983-09-29', 12);
+INSERT INTO employee (id, user_id, last_name, first_name, gender, entry_day, section_id) values (7, 115, 'å°æ—', 'ä¸€éƒ', 'm', '1980-07-14', 13);
+INSERT INTO employee (id, user_id, last_name, first_name, gender, entry_day, section_id) values (8, 117, 'å·æ‘', 'èª ', 'm', '1993-01-8', 13);
+INSERT INTO employee (id, user_id, last_name, first_name, gender, entry_day, section_id) values (9, 118, 'è°·æ‘', 'å¥ˆã€…', 'f', '1997-12-5', 14);
+INSERT INTO employee (id, user_id, last_name, first_name, gender, entry_day, section_id) values (10, 119, 'å¤§æ—', 'äºŒéƒ', 'm', '1981-04-14', 13);
+INSERT INTO employee (id, user_id, last_name, first_name, gender, entry_day, section_id) values (11, 120, 'ä¸­æ‘', 'æ­£äºº', 'm', '1994-06-30', 11);
+INSERT INTO employee (id, user_id, last_name, first_name, gender, entry_day, section_id) values (12, 121, 'å°å·', 'çœŸ', 'm', '1996-03-7', 11);
 
 DROP TABLE IF EXISTS section;
 CREATE TABLE section (
@@ -33,5 +33,5 @@ CREATE TABLE section (
  extension char(3)
 );
 
-INSERT INTO section values (11, '‘–±•”', '205'), (12, 'Œo—•”', '206'), (13, 'Šé‰æ•”', '301'), (14, 'ŠJ”­•”', '302'), (15, '‰c‹Æ•”', '401');
+INSERT INTO section values (11, 'ç·å‹™éƒ¨', '205'), (12, 'çµŒç†éƒ¨', '206'), (13, 'ä¼ç”»éƒ¨', '301'), (14, 'é–‹ç™ºéƒ¨', '302'), (15, 'å–¶æ¥­éƒ¨', '401');
 
