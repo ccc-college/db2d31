@@ -24,7 +24,7 @@ INSERT INTO employee (id, user_id, last_name, first_name, gender, entry_day, sec
 INSERT INTO employee (id, user_id, last_name, first_name, gender, entry_day, section_id) values (9, 118, '谷村', '奈々', 'f', '1997-12-5', 14);
 INSERT INTO employee (id, user_id, last_name, first_name, gender, entry_day, section_id) values (10, 119, '大林', '二郎', 'm', '1981-04-14', 13);
 INSERT INTO employee (id, user_id, last_name, first_name, gender, entry_day, section_id) values (11, 120, '中村', '正人', 'm', '1994-06-30', 11);
-INSERT INTO employee (id, user_id, last_name, first_name, gender, entry_day, section_id) values (12, 121, '小川', '真', 'm', '1996-03-7', 11);
+INSERT INTO employee (id, user_id, last_name, first_name, gender, entry_day, section_id) values (12, 121, '田中', '真', 'm', '1996-03-7', 11);
 
 DROP TABLE IF EXISTS section;
 CREATE TABLE section (
